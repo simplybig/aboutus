@@ -1,6 +1,6 @@
 @font-face {
   font-family: "bebas";
-  src: url("/asset/Bebas-Regular.otf") format("truetype"); /* Ajuste le chemin selon ta structure de dossier */
+  src: url("Bebas-Regular.otf") format("truetype"); /* Ajuste le chemin selon ta structure de dossier */
 }
 
 body {
