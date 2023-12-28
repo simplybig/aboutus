@@ -64,10 +64,10 @@ h1 {
 }
 
 .content-item img {
-  height: 30px; /* Ajuste la hauteur de l'image pour une meilleure apparence sur mobile */
+  height: 40px; /* Ajuste la hauteur de l'image pour une meilleure apparence sur mobile */
   width: auto;
   margin-right: 10px;
-  margin-left: 0;
+  margin-left: 10px;
 }
 
 .content-item span {
