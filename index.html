@@ -10,13 +10,15 @@
 </head>
 
 <body>
-  <script>function redirectToMap() {
+  <script>
+    function redirectToMap() {
       var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
       var locationLink = isMobile
-        ? "geo:48.901693,2.445935?q=2+Avenue+Henri+Barbusse,+Bobigny"
-        : "https://www.google.com/maps/search/?api=1&query=48.901693,2.445935";
+        ? "https://maps.google.com/maps?q=48.903744492141485,2.417908980915873"
+        : "https://www.google.com/maps/search/?api=1&query=48.903744492141485,2.417908980915873";
       window.location.href = locationLink;
-    }</script>
+    }
+  </script>
   <div class="card">
     <div class="logo"><img src="https://github.com/simplybig/aboutus/raw/main/231222_LOGO_SIMPLY_BIG_svg.svg" alt=""
         srcset=""></div>
