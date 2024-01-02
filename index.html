@@ -4,11 +4,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="stylesheet" href="style.css">
   <title>Simplybig</title>
 </head>
 
 <body>
+  <script>function redirectToMap() {
+      var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+      var locationLink = isMobile
+        ? "geo:48.901693,2.445935?q=2+Avenue+Henri+Barbusse,+Bobigny"
+        : "https://www.google.com/maps/search/?api=1&query=48.901693,2.445935";
+      window.location.href = locationLink;
+    }</script>
   <div class="card">
     <div class="logo"><img src="https://github.com/simplybig/aboutus/raw/main/231222_LOGO_SIMPLY_BIG_svg.svg" alt=""
         srcset=""></div>
@@ -23,16 +31,20 @@
         class="content-item"><img
           src="https://github.com/simplybig/aboutus/raw/main/231222_LOGO_SIMPLY_BIG_icone_whatsapp_svg.svg"
           alt="whatsapp"><span>WHATSAPP</span></a>
-      <a href="https://docs.google.com/viewer?url=https://github.com/simplybig/aboutus/raw/main/231218_Dring_catalogue.pdf"
+      <a href="https://mozilla.github.io/pdf.js/web/viewer.html?file=https://github.com/simplybig/aboutus/raw/main/231218_Dring_catalogue.pdf"
         class="content-item" target="_blank">
         <img src="https://github.com/simplybig/aboutus/raw/main/231222_LOGO_SIMPLY_BIG_icone_catalogue_svg.svg"
           alt="catalogue">
         <span>CATALOGUE</span>
       </a>
+      <a href="javascript:void(0);" onclick="redirectToMap()" class="content-item">
+        <img src="https://github.com/simplybig/aboutus/raw/main/240102-LOGO_WAZE_LINKTREE.svg" alt="Itinéraire">
 
-
+        <span>ITINERAIRE</span>
+      </a>
     </div>
   </div>
+
 </body>
 
 </html>
